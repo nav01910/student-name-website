@@ -5,28 +5,95 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>student-site</title>
+    <title>portfolio-website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    Hello, my name is Navjeet.
-    my life is a joke. the despair of existing overburdens me.
-    If we become friends, the doors of dissonance will haunt u forever.
-    Also I study in University of Delhi and i have a beautiful cat.
+    <nav class="navigation">
+        <div class="container-fluid">
+            <div class="brand">Portfolio</div>
+            <ul class="nav-pills">
+                <li class="list-inline">
+                    <a href="/" class="link">Home</a>
 
-    The skills i have acquired up until now are HTML, CSS, JAVASCRIPT, NODEJS, REACT.
-    Created some CLI apps which will be showcased here.
+                </li>
+                <li class="list-inline">
+                    <a href="projects.html" class="link">Projects</a>
 
-    Favourite books:
-    1. Crime and Punishment(Book)
-    2. Notes from the Underground
+                </li>
+                <li class="list-inline">
+                    <a href="blogs.html" class="link">Blogs</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+
+    <header class="container-header">
+        <div class="intro">
+            <p class="intro-greeting">
+            Hello, I am <span class="my-name">Navjeet.</span>
+            </p>
+            <p class="intro-desc">
+                I will make websites for you if you ask politely.
+            </p>
+        </div>
+        <div class="image">
+            <img src="./photo.gif" width="700px" alt="">
+        </div>
+    </header>
+
+    <section class="section section-skills">
+        <h2>key skills</h2>
+        <div class="container-skill">
+            <ul style="list-style: none;">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>NodeJS</li>
+            </ul>
+            <ul style="list-style:none;">
+                <li>ReactJS</li>
+                <li>Git</li>
+                <li>Web Hosting</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section section-projects">
+        <h2>my projects</h2>
+        <p>Click to get directed to projects.</p>
+        <a href="projects.html" target="_blank" class="link btn-link">Projects</a>
+    </section>
+
     
-    Favourite Movies:
-    1. Interstellar
-    2. The Da Vinci Code 
-    3. There will be Blood
+
+    <section class="section section-blogs">
+        <h2>my blogs</h2>
+        <p>Click to get directed to dummy blogs. </p>
+        <a href="blogs.html" target="_blank" class="link btn-link">Blogs</a>
+    </section>
 
 
+    <footer class="footer container-fluid">
+        
+        <div class="container-links">
+            <h3>contact</h3>
+            <ul>
+                <li class="list-inline">
+                    <a href="https://twitter.com/nav01910" target="_blank" class="link">Twitter</a>
+                </li>
+                <li class="list-inline">
+                    <a href="https://www.linkedin.com/in/navjeet-singh-476294208/" target="_blank" class="link">LinkedIn</a>
+                </li>
+                <li class="list-inline">
+                    <a href="https://github.com/nav01910" target="_blank" class="link">GitHub</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 
 </body>
 
