@@ -20,7 +20,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
 }
-
+.header .display-image{
+    width:500px;
+}
 .link {
     text-decoration: none;
     color: white;
