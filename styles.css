@@ -29,12 +29,15 @@ body {
 
 .btn-link {
     background-color: var(--theme-color);
-    padding: 0.4rem 1rem;
+    padding: 0.8rem 1.5rem;
     border-radius: 20rem;
     display: block;
     width: 10%;
     margin: 1rem auto;
 
+}
+.btn-link:hover{
+    font-weight: bold;
 }
 
 .list-inline {
@@ -61,8 +64,21 @@ body {
     margin: auto 0px;
 }
 
-.navigation .nav-pills {
+.navigation {
     text-align: right;
+    text-decoration: none;
+    
+}
+.navigation .link-underline{
+    background-image: linear-gradient(white, white);
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    transition: background-size 100ms;
+}
+
+.navigation .link-underline:hover{
+    background-size: 100% 3px;
 }
 
 .navigation .link-active {
@@ -105,6 +121,10 @@ h3 {
     background-color: var(--theme-color);
     padding: 2rem;
     border-top-right-radius: 1rem;
+}
+
+.footer .social-link:hover {
+    font-weight: bold;
 }
 
 .container-header {
