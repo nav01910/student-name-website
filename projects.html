@@ -52,10 +52,27 @@
         
     </header>
 
-    <section class="section section-odd">
+    <section class="section ">
+        <h1>Cash Register Manager</h1>
+        <p>Calculates no. of notes of currencies Rs.
+            1, 5, 10, 20, 100, 500, 2000.
+        </p>
+        <br/>
+        <a
+            class="link btn-link"
+            href="https://cashregistermgr.netlify.app/"
+            >Live Project</a>
+          <a
+            class="link btn-link"
+            href="https://github.com/nav01910/cash-register-app"
+            >View Source</a>
+    </section>
+
+    <section class="section ">
         <h1>Good-recommendations(dot)com</h1>
         <p>Top recommendations for killing time. 
         </p>
+        <br/>
         <a
             class="link btn-link"
             href="https://good-recommendations-dot.netlify.app/"
@@ -66,11 +83,12 @@
             >View Source</a>
     </section>
 
-    <section class="section">
+    <section class="section ">
         <h1>Gen-Z Emoji Interpreter</h1>
         <p>An interpreter that spares you all the headache in understanding the peculiar meaning of emojis that
             has plagued gen-z vernacular.
         </p>
+        <br/>
         <a
             class="link btn-link"
             href="https://genz-emoji-meaning.netlify.app/"
@@ -81,11 +99,12 @@
             >View Source</a>
     </section>
 
-    <section class="section section-odd">
+    <section class="section">
         <h1>Shakespeare Translator</h1>
-        <p>Flaunt your Queen Elizabeth Englsih infront of your normie college friends
+        <p>Flaunt your Queen Elizabeth English infront of your normie college friends
             and impress your crush because Shakespeare is here to serve you with an
             exquisite word-salad.</p>
+            <br/>
         <a
             class="link btn-link"
             href="https://world-salad.netlify.app"
@@ -96,10 +115,11 @@
             >View Source</a>
     </section>
 
-    <section class="section">
+    <section class="section ">
         <h1>Talking Banana</h1>
         <p>Learn the language of bananas, earn their trust and then breed with their women.
         </p>
+        <br/>
         <a
             class="link btn-link"
             href="https://talking-bananaa.netlify.app"
@@ -110,9 +130,10 @@
             >View Source</a>
     </section>
 
-    <section class="section section-odd">
+    <section class="section ">
         <h1>BASED Quiz App</h1>
         <p>A CLI Quiz that highlights how much internet ruined your brain.</p>
+        <br/>
         <a
             class="link btn-link"
             href="https://replit.com/@broiler/markTwo?embed=true"
@@ -123,9 +144,10 @@
             >View Source</a>
     </section>
 
-    <section class="section">
+    <section class="section ">
         <h1>Do you know this superhero?</h1>
         <p>A CLI Quiz about a superhero. </p>
+        <br/>
         <a
             class="link btn-link"
             href="https://replit.com/@broiler/markOne?embed=true"
@@ -155,6 +177,16 @@
         </div>
     </footer>
 
+    <script>
+        var sectionOdd = document.querySelectorAll(".section");
+        // console.log(sectionOdd.length);
+        for(var i = 0; i < sectionOdd.length; i++){
+            if (i % 2 === 0){
+                sectionOdd[i].classList.add("section-odd")
+            }
+        }
+        
+    </script>
     
 </body>
 
